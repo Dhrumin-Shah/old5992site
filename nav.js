@@ -1,4 +1,5 @@
-document.write('<div class="banner">\
+document.write('<div id="top">\
+	<div class="banner">\
 	<img src="https://dhrumin-shah.github.io/5992site/img/pirate face.png">\
 	<h1>PIRATES 5992</h1>\
 	</div>\
@@ -18,4 +19,5 @@ document.write('<div class="banner">\
 				<li><a href="#">Resources</a></li>\
 			</ul>\
 		</nav>\
+	</div>\
 	</div>');

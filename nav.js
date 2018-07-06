@@ -15,7 +15,7 @@ document.write('<div class="banner">\
 				</li>\
 				<li><a href="https://dhrumin-shah.github.io/5992site/docs/frc.html">FRC</a></li>\
 				<li><a href="https://dhrumin-shah.github.io/5992site/docs/sponsors.html">Sponsors</a></li>\
-				<li><a href="https://dhrumin-shah.github.io/5992site/docs/resources.html">Resources</a></li>\
+				<li><a href="#">Resources</a></li>\
 			</ul>\
 		</nav>\
 	</div>');

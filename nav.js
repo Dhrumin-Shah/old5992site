@@ -1,6 +1,6 @@
 document.write('<div class="banner">\
 	<img src="https://dhrumin-shah.github.io/5992site/img/pirate face.png">\
-	<h1>PIRATES 5992</h1>\
+	<h1 class="unselectable">PIRATES 5992</h1>\
 	</div>\
 	<div class="myNav">\
 		<nav class="myNav">\

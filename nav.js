@@ -1,5 +1,8 @@
 document.write('<div id="top">\
 	<div class="banner">\
+	<div id="particles-js"></div>\
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>\
+	<script src="app.js"></script>\
 	<img src="https://dhrumin-shah.github.io/5992site/img/pirate face.png">\
 	<h1>PIRATES 5992</h1>\
 	</div>\

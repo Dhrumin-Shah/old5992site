@@ -1,8 +1,6 @@
 document.write('<div id="top">\
 	<div class="banner">\
-	<div id="particles-js">\
-	<canvas class="particles-js-canvas"></canvas>\
-	</div>\
+	<canvas id="particles-js"></canvas>\
 	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"><script>\
 	<script src="app.js"></script>\
 	<img src="https://dhrumin-shah.github.io/5992site/img/pirate face.png">\

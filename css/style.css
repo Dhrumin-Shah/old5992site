@@ -25,22 +25,21 @@ body {
   background: transparent;
 }
 
-.banner img {
-  height: 12vh;
+#banner {
+  height: 18vh;
   width: auto;
   background: transparent;
-  margin: 10px;
+  margin-top: 10px;
   z-index: 999;
 }
 
-.banner h1 {
+#twitter {
+  height: 8vh;
   margin-left: 25px;
-  margin-right: 25px;
-  align-self: center;
-  font-size: 9vw;
-  color: #1565C0;
-  font-family: "Black Ops One", cursive;
-  z-index: 999;
+}
+
+#instagram {
+  height: 8vh;
 }
 
 #particles-js {
@@ -64,7 +63,6 @@ body {
   color: snow;
   background: #1565C0;
   height: 59px;
-  width: 100%;
   padding: 10px;
   display: flex;
   align-items: center;

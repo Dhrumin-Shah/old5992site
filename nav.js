@@ -1,6 +1,8 @@
-document.write('<div class="banner">\
-	<img class="unselectable" src="https://dhrumin-shah.github.io/5992site/img/pirate face.png">\
-	<h1 class="unselectable">PIRATES 5992</h1>\
+document.write('<div id="particles-js"></div>\
+	<div class="banner">\
+	<img class="unselectable" id="banner" src="img/banner.png">\
+	<a href="https://twitter.com/"><img id="twitter" src="img/twitter.png"></a>\
+	<img id="instagram" src="img/instagram.png">\
 	</div>\
 	<div class="myNav">\
 		<nav class="myNav">\

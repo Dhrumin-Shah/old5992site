@@ -33,18 +33,11 @@ body {
   z-index: 999;
 }
 
-#twitter {
+.social {
   height: 5vh;
   margin-left: 25px;
   z-index: 1;
   position: relative;
-}
-
-#instagram {
-  height: 5vh;
-  z-index: 1;
-  position: relative;
-  margin-left: 25px;
 }
 
 #particles-js {
@@ -60,6 +53,7 @@ body {
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Bungee Shade", cursive;
+  font-size: 3vh;
   width: 100%;
   z-index: 999;
 }
@@ -69,7 +63,7 @@ body {
   padding: 0;
   color: snow;
   background: #1565C0;
-  height: 59px;
+  height: 7vh;
   padding: 10px;
   display: flex;
   align-items: center;

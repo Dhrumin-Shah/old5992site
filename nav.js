@@ -1,8 +1,10 @@
 document.write('<div id="particles-js"></div>\
 	<div class="banner">\
 	<img class="unselectable" id="banner" src="img/banner.png">\
-	<a href="https://twitter.com/Pirates5992"><img id="twitter" src="img/twitter.png"></a>\
-	<img id="instagram" src="img/instagram.png">\
+	<a href="https://twitter.com/Pirates5992"><img class="social" src="img/twitter.png"></a>\
+	<a href="https://www.instagram.com/pirates5992/"><img class="social" src="img/instagram.png"></a>\
+	<a href="https://youtube.com"><img class="social" src="img/youtube.png"></a>\
+	<img class="social" src="img/email.png">\
 	</div>\
 	<div class="myNav">\
 		<nav class="myNav">\

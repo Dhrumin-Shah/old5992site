@@ -1,7 +1,7 @@
 document.write('<div id="particles-js"></div>\
 	<div class="banner">\
 	<img class="unselectable" id="banner" src="img/banner.png">\
-	<a href="https://twitter.com/"><img id="twitter" src="img/twitter.png"></a>\
+	<a href="https://twitter.com/Pirates5992"><img id="twitter" src="img/twitter.png"></a>\
 	<img id="instagram" src="img/instagram.png">\
 	</div>\
 	<div class="myNav">\

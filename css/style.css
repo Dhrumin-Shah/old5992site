@@ -34,12 +34,17 @@ body {
 }
 
 #twitter {
-  height: 8vh;
+  height: 5vh;
   margin-left: 25px;
+  z-index: 1;
+  position: relative;
 }
 
 #instagram {
-  height: 8vh;
+  height: 5vh;
+  z-index: 1;
+  position: relative;
+  margin-left: 25px;
 }
 
 #particles-js {
@@ -47,6 +52,8 @@ body {
   height: 20vh;
   position: absolute;
   z-index: 0;
+  top: 0;
+  left: 0;
 }
 
 .myNav {

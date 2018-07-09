@@ -14,6 +14,13 @@ document.write('<div class="banner">\
 					</ul>\
 				</li>\
 				<li><a href="https://dhrumin-shah.github.io/5992site/docs/frc.html">FRC</a></li>\
+				<li><a href="#">Robots</a>\
+					<ul class="submenu">\
+						<li><a href="#">2018 Power Up</a></li>\
+						<li><a href="#">2017 Steamworks</a></li>\
+						<li><a href="#">2016 Stronghold</a></li>\
+					</ul>\
+				</li>\
 				<li><a href="https://dhrumin-shah.github.io/5992site/docs/sponsors.html">Sponsors</a></li>\
 				<li><a href="#">Resources</a></li>\
 			</ul>\

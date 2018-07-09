@@ -4,7 +4,11 @@ document.write('<div id="particles-js"></div>\
 	<a href="https://twitter.com/Pirates5992"><img class="social" src="img/twitter.png"></a>\
 	<a href="https://www.instagram.com/pirates5992/"><img class="social" src="img/instagram.png"></a>\
 	<a href="https://youtube.com"><img class="social" src="img/youtube.png"></a>\
-	<img class="social" src="img/email.png">\
+	<div class=emailDrop>\
+		<img class="social" src="img/email.png">\
+		<span class="emailHover">setonhallrobotics@gmail.com</span>\
+	</div>\
+	<a href="https://www.shp.org/"><img class="social" src="img/school.png"></a>\
 	</div>\
 	<div class="myNav">\
 		<nav class="myNav">\

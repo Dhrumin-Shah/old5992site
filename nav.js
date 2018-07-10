@@ -8,7 +8,7 @@ document.write('<div id="particles-js"></div>\
 	<a href="https://www.shp.org/" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/school.png"></a>\
 	</div>\
 	<div class="myNav">\
-		<nav class="myNav">\
+		<nav class="myNav" id=myNav>\
 			<ul>\
 				<li><a href="https://dhrumin-shah.github.io/5992site/index.html">Home</a></li>\
 				<li><a href="https://dhrumin-shah.github.io/5992site/docs/about.html">About</a>\

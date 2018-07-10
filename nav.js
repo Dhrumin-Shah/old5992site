@@ -1,14 +1,11 @@
 document.write('<div id="particles-js"></div>\
 	<div class="banner">\
-	<img class="unselectable" id="banner" src="img/banner.png">\
-	<a href="https://twitter.com/Pirates5992"><img class="social" src="img/twitter.png"></a>\
-	<a href="https://www.instagram.com/pirates5992/"><img class="social" src="img/instagram.png"></a>\
-	<a href="https://youtube.com"><img class="social" src="img/youtube.png"></a>\
-	<div class=emailDrop>\
-		<img class="social" src="img/email.png">\
-		<span class="emailHover">setonhallrobotics@gmail.com</span>\
-	</div>\
-	<a href="https://www.shp.org/"><img class="social" src="img/school.png"></a>\
+	<img class="unselectable" id="banner" src="https://dhrumin-shah.github.io/5992site/img/banner.png">\
+	<a href="https://twitter.com/Pirates5992" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/twitter.png"></a>\
+	<a href="https://www.instagram.com/pirates5992/" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/instagram.png"></a>\
+	<a href="https://youtube.com" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/youtube.png"></a>\
+	<a href="mailto:setonhallrobotics@gmail.com"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/email.png"></a>\
+	<a href="https://www.shp.org/" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/school.png"></a>\
 	</div>\
 	<div class="myNav">\
 		<nav class="myNav">\

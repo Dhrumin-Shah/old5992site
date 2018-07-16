@@ -26,8 +26,8 @@ body {
 }
 
 #banner {
-  height: 18vh;
-  width: auto;
+  height: auto;
+  width: 200px;
   background: transparent;
   margin-top: 10px;
   z-index: 999;
@@ -49,11 +49,23 @@ body {
   left: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .banner {
+    display: none;
+  }
+  #particles-js {
+    display: none;
+  }
+  div .myNav {
+    position: relative;
+  }
+}
+
 .myNav {
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Bungee Shade", cursive;
-  font-size: 3vh;
+  font-size: auto;
   width: 100%;
   z-index: 999;
 }
@@ -97,6 +109,13 @@ body {
   top: 0px;
 }
 
+@media screen and (max-width: 600px) {
+  .myNav ul {
+    flex-direction: column;
+    display: none;
+  }
+}
+
 .submenu li {
   position: absolute;
   display: none;
@@ -119,70 +138,64 @@ body {
   display: grid;
   grid-template-columns: 100px auto 100px;
   grid-auto-rows: minmax(100px, auto);
+  margin: 2rem;
 }
 
-.welcome {
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
+.info-header {
+  grid-row: 1 / 2;
+  grid-column: span 3;
 }
 
 .info {
+  grid-row: 2 / 3;
+  grid-column: span 3;
+}
+
+.footer {
   grid-row: 3 / 4;
-  grid-column: 2 / 3;
+  grid-column: span 3;
+  background-color: grey;
 }
 
-#myCarousel {
-  border-style: ridge;
-  border-color: gainsboro;
-  border-width: 10px;
+.slideshow {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 0;
   box-sizing: border-box;
-  grid-row: 1;
-  grid-column: 2 / 3;
 }
 
-/* Tooltip container */
-.emailDrop {
-    position: relative;
-    display: inline-block;
+.slides {
+  display: none;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
 }
 
-/* Tooltip text */
-.emailDrop .emailHover {
-    visibility: hidden;
-    width: 200px;
-    font-size: 12px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-
-    /* Fade in tooltip */
-    opacity: 0;
-    transition: opacity 0.3s;
+.slideText {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-/* Tooltip arrow */
-.emailDrop .emailHover::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.emailDrop:hover .emailHover {
-    visibility: visible;
-    opacity: 1;
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }

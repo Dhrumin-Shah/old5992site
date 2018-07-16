@@ -5,7 +5,6 @@
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="img/browsertab.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Team 5992</title>
@@ -16,41 +15,37 @@
 <body>
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script src="app.js"></script>
-<div id="particles-js"></div>
-  <div class="banner">
-  <img class="unselectable" id="banner" src="https://dhrumin-shah.github.io/5992site/img/banner.png">
-  <a href="https://twitter.com/Pirates5992" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/twitter.png"></a>
-  <a href="https://www.instagram.com/pirates5992/" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/instagram.png"></a>
-  <a href="https://youtube.com" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/youtube.png"></a>
-  <a href="mailto:setonhallrobotics@gmail.com"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/email.png"></a>
-  <a href="https://www.shp.org/" target="_blank"><img class="social" src="https://dhrumin-shah.github.io/5992site/img/school.png"></a>
-  </div>
-  <div class="myNav">
-    <nav class="myNav" id=myNav>
-      <ul>
-        <li><a href="https://dhrumin-shah.github.io/5992site/index.html">Home</a></li>
-        <li><a href="https://dhrumin-shah.github.io/5992site/docs/about.html">About</a>
-          <ul class="submenu">
-            <li><a href="#">History</a></li>
-            <li><a href="#">Awards</a></li>
-            <li><a href="https://dhrumin-shah.github.io/5992site/docs/students.html">Members</a></li>
-          </ul>
-        </li>
-        <li><a href="https://dhrumin-shah.github.io/5992site/docs/frc.html">FRC</a></li>
-        <li><a href="#">Robots</a>
-          <ul class="submenu">
-            <li><a href="#">2018 Power Up</a></li>
-            <li><a href="#">2017 Steamworks</a></li>
-            <li><a href="#">2016 Stronghold</a></li>
-          </ul>
-        </li>
-        <li><a href="https://dhrumin-shah.github.io/5992site/docs/sponsors.html">Sponsors</a></li>
-        <li><a href="#">Resources</a></li>
-      </ul>
-    </nav>
+  <script src="nav.js"></script>
+      <div class="slideshow">
+        <div class="slides fade">
+          <img src="img/IMG_0809.jpg" alt="First slide">
+          <div class="slideText">Caption</div>
+        </div>
+          <div class="slides fade">
+            <img src="img/IMG_0805.jpg" alt="Second slide">
+            <div class="slideText">Caption</div>
+          </div>
+          <div class="slides fade">
+            <img src="img/IMG_0629.jpg" alt="Third slide">
+            <div class="slideText">Caption</div>
+          </div>
+        </div>
+      <script>
+var slideIndex = 0;
+showSlides();
 
-    <div class="menu-toggle">
-    <div class="hamburger"></div>
+function showSlides() {
+    var i;
+    var slide = document.getElementsByClassName("slides");
+    for (i = 0; i < slide.length; i++) {
+        slide[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slide.length) {slideIndex = 1} 
+    slide[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
       <div class="myContainer">
         <div class="info-header">
           <h1>WELCOME</h1>
